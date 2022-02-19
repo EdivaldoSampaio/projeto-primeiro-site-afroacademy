@@ -1,0 +1,48 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background: #00c3ff;
+    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);
+    background: linear-gradient(to right, #ffff1c, #00c3ff);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logoImg {
+    width: 4rem;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-size: 1.4rem;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 10px;
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a:hover {
+    color: rgb(78, 200, 160);
+    transition: 0.5s;
+}
+
+.menuDiv {
+    float: right;
+    margin: 17px;
+}
+
+.menuDiv li {
+    margin: 2rem;
+    padding: 2rem;
+}
